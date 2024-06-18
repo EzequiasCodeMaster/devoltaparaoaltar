@@ -1,0 +1,33 @@
+@charset 'UTF8';
+
+header {
+   
+    border: 1px;
+    border-radius: 1px solid black;
+    height: 100px;
+}
+
+header >h1 {
+    background-image: url(imagens/dvolta+.jpeg);
+    color: rgb(247, 234, 234);
+    text-align: center;
+    text-decoration: arial;
+    border: 1px;
+    border-radius: 1px solid black;
+}
+
+a {
+    color: black;
+    font-size: 1.5em;
+
+}
+
+ol{
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Duas colunas de tamanho igual */
+    }
+ 
+li {
+    text-decoration: arial;
+    margin: 20px;
+}
