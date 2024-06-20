@@ -3,9 +3,8 @@
 body {
 
     background-color: rgb(88, 194, 185);
-    border: 1px solid rgb(0, 0, 0);
     border-radius: 1px solid black;
-    margin: auto;
+    
     
 }
 
@@ -15,7 +14,7 @@ body {
 header {
    
     border: 1px;
-    border-radius: 1px solid black;
+    border-radius: 1px solid rgb(61, 6, 122);
     height: 100px;
 }
 
@@ -42,7 +41,7 @@ header >h1 {
     text-align: center;
     text-decoration: arial;
     border: 1px;
-    border-radius: 1px solid black;
+    border-radius: 1px solid rgb(218, 0, 54);
 }
 
 a {
