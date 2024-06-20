@@ -1,10 +1,38 @@
 @charset 'UTF8';
 
+body {
+    position: relative;
+    background-color: rgb(88, 194, 185);
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 1px solid black;
+    
+}
+
+
+
+
 header {
    
     border: 1px;
     border-radius: 1px solid black;
     height: 100px;
+}
+
+.cabeçario {
+        text-align: center;
+        display: flex;
+        
+}
+
+.cabeçario2{
+    text-align: center;
+    display: flex;
+   
+}
+
+div {
+    
+    margin: auto;
 }
 
 header >h1 {
@@ -25,4 +53,27 @@ a {
 li {
     text-decoration: arial;
     margin: 20px;
+}
+
+.travesia{
+    background-image: url(imagens/dvolta+.jpeg);
+   border: 2em;
+}
+
+.travesia a {
+  
+    font-size: 20px;
+    border-radius: 1px solid blue;
+    color: white;
+    text-decoration: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 1px solid white;
+    
+}
+
+.hinosdequinta {
+    color: black;
+    font-size: 1.5em;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
 }
