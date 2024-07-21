@@ -2,9 +2,10 @@
 
 body {
 
-    background-color: rgb(88, 194, 185);
+    background-color: rgb(0, 0, 0);
     border: 1px 1px solid rgb(0, 0, 0);
     border-radius: 1px solid black;
+
     
     
 }
@@ -46,7 +47,7 @@ header >h1 {
 }
 
 a {
-    color: black;
+    color: rgb(255, 248, 248);
     font-size: 1em;
     font-family: Arial, Helvetica, sans-serif;
     text-decoration: none;
@@ -80,4 +81,11 @@ li {
     font-size: 1.5em;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.hinosdequinta img {
+    display: contents;
+    align-items: center;
+    justify-items: center;
 }
